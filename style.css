@@ -1,0 +1,131 @@
+@charset "UTF-8";
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+	background-image: url(/images/916210.jpg);
+	background-blend-mode: hue;
+	background-color: rgba(26, 24, 24, 0.6);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
+.container {
+	width: 95%;
+	margin: 0 auto;
+	padding: 10px 0;
+}
+
+header {
+	padding: 10px;
+	background-color: #9620ae9d;
+}
+
+.header {
+	display: flex;
+	justify-content: space-between;
+
+}
+
+.header-nav {
+	display: flex;
+	gap: 60px;
+	list-style: none;
+}
+
+.header-nav li a {
+	color: #5e5a5a;
+	text-decoration: none;
+	list-style: none;
+	padding: 10px;
+	border-radius: 10px;
+	background-color: #ffffff;
+	box-shadow: 0px 2px 4px rgba(0,0,0,0.4)
+}
+
+.header-nav li a:hover {
+	color: #737070e5;
+	background-color: #ffffff;
+	transition: 0.3s all;
+}
+
+#info-custom {
+	background-color: #972fa5;
+	color: #dabebe;
+}
+
+#info-custom:hover {
+	background-color: #a92bba;
+	color: #dabebecd;
+}
+
+#custom-input {
+	display: flex;
+	flex-direction: column;
+}
+
+#custom-input p{
+	font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-weight:100;
+	color: #ffffffbf;
+}
+
+#custom-input p a{
+	font-weight: 600;
+	color: #a326b3;
+}
+
+.section-registro-pai {
+	background-color: #ffffff0b;
+	margin: 0 auto;
+	margin-top: 170px;
+	align-items: center;
+	display: flex;
+	justify-content: space-evenly;
+	width: 250px;
+	height: 300px;
+	text-align: center;
+	box-shadow: 5px 5px 30px 23px rgba(0, 0, 0, 0.29);
+	border-radius: 5px;
+}
+
+#login-h2 {
+	padding: 10px;
+	color: #d7c6c6ca;
+}
+
+input[type="submit"]{
+	color: #ffffff71;
+    background-color: #ffffff34;
+    border-radius: 5px;
+	padding: 4px;
+	margin: 3px;
+	border: solid #949090 1px;
+	background-color: #8b3296;
+	cursor: pointer;
+	transition: 0.4s all;
+}
+
+input[type="submit"]:hover{
+    background-color: #992fa7;
+}
+
+input[type="email"],
+input[type="password"]{
+    background-color: #ffffff34;
+    border-radius: 5px;
+	padding: 4px;
+	margin: 3px;
+	border: solid #949090 1px;
+}
+
+#sign-up{
+	font-weight: bold;
+}
